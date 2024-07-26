@@ -1,5 +1,4 @@
-/* heavily inspired by espnow example given by esp-idf (https://github.com/espressif/esp-idf/blob/master/examples/wifi/espnow)
-ive removed a lot of lines of code that I have determined to be useless for what we need for now so it is 100% worth taking a look at */
+/* espnow example given by Espressif (https://github.com/espressif/esp-idf/blob/master/examples/wifi/espnow) */
 
 // need to include wifi since ESP_NOW uses wifi hardware. It does not need to connect to wifi
 // nvs_flash (non volatile memory) is needed to store wifi settings even after esp32 loses power
